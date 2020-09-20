@@ -1,6 +1,6 @@
 provider "aws" {
 region = "ap-south-1"
-profile = "IAMUSER"
+profile = "xyz"
 }
 
 resource "aws_vpc" "create_vpc" {
